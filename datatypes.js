@@ -42,14 +42,20 @@
 
 
 // ********* Boolean *******
-var t = true;
-var f = false;
+// var t = true;
+// var f = false;
 
-// Null vs Undefined datatype 
+// // Null vs Undefined datatype 
 
-var abc
+// var abc
 
-var xyz = null
-console.log(abc)
-console.log(xyz)
+// var xyz = null
+// console.log(abc)
+// console.log(xyz)
 
+
+var hex = 0xff
+console.log(hex)
+
+var oct = 0765
+console.log(oct)
