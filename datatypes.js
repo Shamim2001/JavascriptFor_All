@@ -42,8 +42,8 @@
 
 
 // ********* Boolean *******
-// var t = true;
-// var f = false;
+ var t = true;
+ var f = false;
 
 // // Null vs Undefined datatype 
 
