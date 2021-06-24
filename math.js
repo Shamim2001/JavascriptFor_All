@@ -17,4 +17,4 @@ console.log(Math.sqrt(64))
 
 
 // random number genarete
-console.log(Math.random(Math.round()* 50 + 1  ))
+console.log(Math.round( Math.random() * 50 + 1))
