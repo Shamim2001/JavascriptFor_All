@@ -23,3 +23,18 @@ if (a > b || c > d) {
 var check = !(a > b)
 
 console.log(check)
+
+
+
+// logical AND, OR operator
+
+var name = ''
+
+var fullname = name || 'Shamim'
+
+console.log(fullname)
+
+
+var goodPractice = true // false
+
+goodPractice && console.log('Eveythings is good practice')
