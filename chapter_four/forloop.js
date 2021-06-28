@@ -15,13 +15,26 @@
 
 
 
-var sum = 0
+// var sum = 0
 
 
 
-for (var i = 1; i <= 10; i++) {
+// for (var i = 1; i <= 10; i++) {
 
-    console.log(sum + ' + ' + i + ' = ' + (sum + i))
-    sum += i
+//     console.log(sum + ' + ' + i + ' = ' + (sum + i))
+//     sum += i
+// }
+// console.log('result = ' + sum)
+
+
+// Nested for loop 
+
+const n = 20
+
+for (i = 1; i <= n; i++) {
+    result = ''
+    for (j = 1; j <= i; j++) {
+        result += j
+    }
+    console.log(result)
 }
-console.log('result = ' + sum)
