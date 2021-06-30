@@ -29,12 +29,26 @@
 
 // Nested for loop 
 
-const n = 20
+// const n = 20
 
-for (i = 1; i <= n; i++) {
-    result = ''
-    for (j = 1; j <= i; j++) {
-        result += j
+// for (i = 1; i <= n; i++) {
+//     result = ''
+//     for (j = 1; j <= i; j++) {
+//         result += j
+//     }
+//     console.log(result)
+// }
+
+
+
+// Infinity for loop 
+
+for (; ; ) {
+    var rand = Math.floor(Math.random() * 10 + 1)
+    if (rand === 9) {
+        console.log('I am Winner ')
+        break
+    } else {
+        console.log('Not winner')
     }
-    console.log(result)
 }
